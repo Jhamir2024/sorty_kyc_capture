@@ -2,9 +2,9 @@ name: sorty_kyc_capture
 description: Flutter KYC package with document scanning, real-time liveness selfie detection via ML Kit, and automatic JPEG compression under 800 KB.
 version: 0.1.0
 
-homepage: https://github.com/Jhamir2024/sorty
-repository: https://github.com/Jhamir2024/sorty/tree/main/packages/sorty_kyc_capture
-issue_tracker: https://github.com/Jhamir2024/sorty/issues
+homepage: https://github.com/Jhamir2024/sorty_kyc_capture
+repository: https://github.com/Jhamir2024/sorty_kyc_capture
+issue_tracker: https://github.com/Jhamir2024/sorty_kyc_capture/issues
 
 topics:
   - kyc
