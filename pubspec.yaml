@@ -1,0 +1,38 @@
+name: sorty_kyc_capture
+description: Flutter KYC package with document scanning, real-time liveness selfie detection via ML Kit, and automatic JPEG compression under 800 KB.
+version: 0.1.0
+
+homepage: https://github.com/Jhamir2024/sorty
+repository: https://github.com/Jhamir2024/sorty/tree/main/packages/sorty_kyc_capture
+issue_tracker: https://github.com/Jhamir2024/sorty/issues
+
+topics:
+  - kyc
+  - camera
+  - face-detection
+  - identity-verification
+  - liveness
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Camera hardware control
+  camera: ^0.11.0+2
+  # On-device face detection for liveness
+  google_mlkit_face_detection: ^0.11.0
+  # Image compression before upload
+  flutter_image_compress: ^2.3.0
+  # Runtime permission handling
+  permission_handler: ^11.3.1
+  # Temp directory for compressed files
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
